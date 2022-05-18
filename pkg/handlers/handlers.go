@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/models"
-	"bookings/pkg/render"
 	"net/http"
+
+	"github.com/clcaldwell/bookings/pkg/config"
+	"github.com/clcaldwell/bookings/pkg/models"
+	"github.com/clcaldwell/bookings/pkg/render"
 )
 
 // Repo the repository used by the handlers

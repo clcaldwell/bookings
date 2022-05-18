@@ -1,13 +1,14 @@
 package main
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/handlers"
-	"bookings/pkg/render"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/clcaldwell/bookings/pkg/config"
+	"github.com/clcaldwell/bookings/pkg/handlers"
+	"github.com/clcaldwell/bookings/pkg/render"
 
 	"github.com/alexedwards/scs/v2"
 )

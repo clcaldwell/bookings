@@ -1,14 +1,15 @@
 package render
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/models"
 	"bytes"
 	"fmt"
 	"log"
 	"net/http"
 	"path/filepath"
 	"text/template"
+
+	"github.com/clcaldwell/bookings/pkg/config"
+	"github.com/clcaldwell/bookings/pkg/models"
 )
 
 var functions = template.FuncMap{}
